@@ -1,0 +1,33 @@
+uuid: 4fad7af0-ade1-4e1b-bb98-13c903db80c2
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - user
+id: user.field_qalification
+field_name: field_qalification
+entity_type: user
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'select list'
+      label: 'select list'
+    -
+      value: U.G
+      label: U.G
+    -
+      value: P.G
+      label: P.G
+    -
+      value: Other
+      label: Other
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

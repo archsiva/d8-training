@@ -1,0 +1,21 @@
+uuid: c783ffe4-9bad-48c0-b5df-f6de05e2fc09
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_dob
+  module:
+    - datetime
+    - user
+id: user.user.field_dob
+field_name: field_dob
+entity_type: user
+bundle: user
+label: DOB
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

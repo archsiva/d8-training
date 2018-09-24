@@ -1,0 +1,21 @@
+uuid: b33c730e-a992-4ff2-8e02-ecffc8693689
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_qalification
+  module:
+    - options
+    - user
+id: user.user.field_qalification
+field_name: field_qalification
+entity_type: user
+bundle: user
+label: Qalification
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

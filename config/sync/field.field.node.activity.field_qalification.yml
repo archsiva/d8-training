@@ -1,0 +1,21 @@
+uuid: bb57506b-fbf8-467a-9ee3-f553be395c09
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_qalification
+    - node.type.activity
+  module:
+    - options
+id: node.activity.field_qalification
+field_name: field_qalification
+entity_type: node
+bundle: activity
+label: Qalification
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

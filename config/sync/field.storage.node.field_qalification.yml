@@ -1,0 +1,30 @@
+uuid: 6e3fa3df-72fe-4de3-894e-4e05258dbee5
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_qalification
+field_name: field_qalification
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: U.G
+      label: U.G
+    -
+      value: P.G
+      label: P.G
+    -
+      value: Other
+      label: Other
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

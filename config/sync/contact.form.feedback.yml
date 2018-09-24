@@ -1,0 +1,14 @@
+uuid: 2ab081b6-48b4-48a3-aa66-1d3e7e7cb119
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - test123456@cg.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''
