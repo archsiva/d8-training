@@ -1,0 +1,14 @@
+uuid: 626d90f9-7d51-4daa-8c7b-20de7f71629b
+name: training-d8-dev
+mail: test123456@cg.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
