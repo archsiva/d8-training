@@ -4,7 +4,12 @@ status: true
 dependencies:
   config:
     - core.entity_form_mode.user.register
+    - field.field.user.user.field_activity
+    - field.field.user.user.field_dob
     - field.field.user.user.field_first_name
+    - field.field.user.user.field_last_name
+    - field.field.user.user.field_profession
+    - field.field.user.user.field_qalification
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
@@ -45,4 +50,10 @@ content:
     third_party_settings: {  }
     weight: -1
     region: content
-hidden: {  }
+hidden:
+  field_activity: true
+  field_dob: true
+  field_last_name: true
+  field_profession: true
+  field_qalification: true
+  langcode: true
