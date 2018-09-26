@@ -1,0 +1,11 @@
+name: 'D8 Routing Demo'
+type: module
+description: 'D8 Routing Demo'
+package: Custom
+
+
+# Information added by Drupal.org packaging script on 2018-09-10
+version: '8.6.1'
+core: '8.x'
+project: 'drupal'
+datestamp: 1536585833
